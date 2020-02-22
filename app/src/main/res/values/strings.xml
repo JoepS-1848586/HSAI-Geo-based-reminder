@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Geo-Reminder</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ls_reminder_item_deleteText">Delete</string>
+    <string name="activity_main_deleteConfirm">Delete</string>
+    <string name="activity_main_deleteCancel">Cancel</string>
+    <string name="activity_main_deleteToast">Item deleted</string>
+    <string name="activity_add_reminder_succesToast">Reminder added</string>
+    <string name="activity_add_reminder_failToast">Failed to add reminder</string>
+    <string name="activity_main_deleteFailToast">Failed to delete reminder</string>
+</resources>
