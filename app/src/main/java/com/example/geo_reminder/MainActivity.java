@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         if(requestCode == REQUEST_CODE_ADD_ITEM){
-            if(requestCode == Activity.RESULT_OK){
+            if(resultCode == Activity.RESULT_OK){
                 addReminder((Reminder)data.getSerializableExtra(AddReminderActivity.EXTRA_NEW_ITEM));
                 Toast.makeText(this, R.string.activity_add_reminder_succesToast, Toast.LENGTH_SHORT).show();
             }
