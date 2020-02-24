@@ -8,4 +8,8 @@
     <string name="activity_add_reminder_succesToast">Reminder added</string>
     <string name="activity_add_reminder_failToast">Failed to add reminder</string>
     <string name="activity_main_deleteFailToast">Failed to delete reminder</string>
+    <string name="activity_add_reminder_address_hint_text">Address</string>
+    <string name="activity_add_reminder_info_hint_text">Reminder info here</string>
+    <string name="activity_add_reminder_address_search">Search</string>
+    <string name="activity_add_reminder_submit_button">Submit</string>
 </resources>
