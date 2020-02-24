@@ -1,8 +1,6 @@
 package com.example.geo_reminder;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.room.Database;
 import androidx.room.Room;
 
 import android.app.Activity;

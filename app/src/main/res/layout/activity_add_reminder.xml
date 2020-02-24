@@ -33,17 +33,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/address_input"
-        android:text="@string/activity_add_reminder_address_search"></Button>
+        android:text="@string/activity_add_reminder_address_search"
+        android:onClick="onSearch"></Button>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_toRightOf="@id/address_searchButton"
-            android:src="@drawable/ic_voice_foreground"></ImageButton>
+            android:src="@drawable/ic_voice_foreground"
+            android:onClick="onRecord"></ImageButton>
     </LinearLayout>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/info_field"
-        android:text="@string/activity_add_reminder_submit_button"></Button>
+        android:text="@string/activity_add_reminder_submit_button"
+        android:onClick="onSubmit"></Button>
 </RelativeLayout>
