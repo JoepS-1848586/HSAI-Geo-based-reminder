@@ -15,7 +15,7 @@
         android:layout_marginTop="16dp"
         android:minHeight="100dp"
         android:id="@+id/info_field"></EditText>
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -24,25 +24,27 @@
         android:id="@+id/address_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:inputType="textPersonName"
-        android:hint="@string/activity_add_reminder_address_hint_text" />
+        android:hint="@string/activity_add_reminder_address_hint_text"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/address_searchButton"/>
 
     <Button
         android:id="@+id/address_searchButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/address_input"
+        android:layout_toLeftOf="@+id/voice_input"
         android:text="@string/activity_add_reminder_address_search"
         android:onClick="onSearch"></Button>
 
         <ImageButton
+            android:id="@+id/voice_input"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_toRightOf="@id/address_searchButton"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
             android:src="@drawable/ic_voice_foreground"
             android:onClick="onRecord"></ImageButton>
-    </LinearLayout>
+    </RelativeLayout>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
