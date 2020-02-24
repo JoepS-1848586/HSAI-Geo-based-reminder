@@ -43,9 +43,6 @@ public class MainActivity extends AppCompatActivity {
 
         m_reminders.addAll(db.reminderDao().getAll());
 
-        // test-data
-//        addReminder(new Reminder("test1",78,63, 10));
-//        addReminder(new Reminder("test2",123,143, 13));
     }
 
     public void deleteReminder(final int position){
